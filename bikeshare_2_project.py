@@ -11,6 +11,10 @@ CITY_DATA = { 'chicago': 'chicago.csv',
 months = ['January', 'February', 'March', 'April', 'May', 'June']
 
 def screen_clear():
+    """
+    Used to clear screen between outputs of data to make visually more
+    appealing to the user.
+    """
    if name == 'nt':
       _ = system('cls')
    # for mac and linux(here, os.name is 'posix')
@@ -233,6 +237,10 @@ def main():
         time_stats(df)
         countdown(5)
         screen_clear()
+        """
+        Adding a countdown timer to give user time to read each set of data
+        and then clearing screen before running next function.
+        """
         station_stats(df)
         countdown(5)
         screen_clear()
