@@ -15,4 +15,5 @@ washington.csv
 new_york_city.csv
 
 ### Credits
-#It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+Push a local branch to remote repository
+https://stackoverflow.com/a/6232535/11417536
