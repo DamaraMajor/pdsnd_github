@@ -237,6 +237,10 @@ def main():
         time_stats(df)
         countdown(5)
         screen_clear()
+        """
+        Adding a countdown timer to give user time to read each set of data
+        and then clearing screen before running next function.
+        """
         station_stats(df)
         countdown(5)
         screen_clear()
